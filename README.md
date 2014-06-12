@@ -1,4 +1,4 @@
-# vue-once [![Build Status](https://travis-ci.org/kewah/vue-once.svg?branch=master)](https://travis-ci.org/kewah/vue-once)
+# vue-once
 
 [Vue.js](https://github.com/yyx990803/vue) directive.  
 Adds an event listener that will be invoked a single time.
