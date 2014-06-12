@@ -1,6 +1,6 @@
 {
   "name": "vue-once",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds an event listener that will be invoked a single time",
   "main": "index.js",
   "keywords": [
