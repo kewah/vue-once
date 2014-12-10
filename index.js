@@ -1,7 +1,7 @@
 'use strict';
 
 exports.install = function(Vue) {
-  var utils = Vue.require('utils');
+  var _ = Vue.util;
 
   Vue.directive('once', {
     isFn: true,
@@ -14,7 +14,7 @@ exports.install = function(Vue) {
 
     update: function(handler) {
       if (typeof handler !== 'function') {
-        utils.warn('Directive "v-once:' + this.expression + '" expects a method.');
+        _.warn('Directive "v-once:' + this.expression + '" expects a method.');
         return;
       }
 
